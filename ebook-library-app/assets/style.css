@@ -1,0 +1,90 @@
+/* Style dasar */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3498db;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Form */
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #888;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+  
